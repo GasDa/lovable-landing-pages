@@ -1,13 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { LanguageProvider } from '@/hooks/useLanguage';
+import { Header } from '@/components/landing/Header';
+import { HeroSection } from '@/components/landing/HeroSection';
+import { PainPointsSection } from '@/components/landing/PainPointsSection';
+import { BenefitsSection } from '@/components/landing/BenefitsSection';
+import { ProductSection } from '@/components/landing/ProductSection';
+import { CTASection } from '@/components/landing/CTASection';
+import { Footer } from '@/components/landing/Footer';
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <LanguageProvider>
+      <div className="min-h-screen bg-background">
+        <Header />
+        <main>
+          <HeroSection />
+          <div className="mt-32 sm:mt-48">
+            <PainPointsSection />
+          </div>
+          <BenefitsSection />
+          <ProductSection />
+          <CTASection />
+        </main>
+        <Footer />
       </div>
-    </div>
+    </LanguageProvider>
   );
 };
 
