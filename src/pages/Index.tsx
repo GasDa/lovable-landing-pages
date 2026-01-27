@@ -14,9 +14,7 @@ const Index = () => {
         <Header />
         <main>
           <HeroSection />
-          <div className="mt-32 sm:mt-48">
-            <PainPointsSection />
-          </div>
+          <PainPointsSection />
           <BenefitsSection />
           <ProductSection />
           <CTASection />
