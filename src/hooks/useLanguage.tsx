@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, ReactNode } from 'react';
+import { createContext, useContext, useEffect, useMemo, useState, ReactNode } from 'react';
 import { Language, t } from '@/lib/i18n';
 
 interface LanguageContextType {
@@ -9,10 +9,31 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<Language>('en');
+const DEFAULT_LANGUAGE: Language = 'ru';
 
-  const translate = (path: string) => t(language, path);
+export function LanguageProvider({
+  children,
+  initialLanguage,
+  onLanguageChange,
+}: {
+  children: ReactNode;
+  initialLanguage?: Language;
+  onLanguageChange?: (lang: Language) => void;
+}) {
+  const [language, setLanguageState] = useState<Language>(initialLanguage ?? DEFAULT_LANGUAGE);
+
+  useEffect(() => {
+    if (initialLanguage && initialLanguage !== language) {
+      setLanguageState(initialLanguage);
+    }
+  }, [initialLanguage, language]);
+
+  const setLanguage = (nextLanguage: Language) => {
+    setLanguageState(nextLanguage);
+    onLanguageChange?.(nextLanguage);
+  };
+
+  const translate = useMemo(() => (path: string) => t(language, path), [language]);
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage, t: translate }}>

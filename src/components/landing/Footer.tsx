@@ -11,9 +11,9 @@ export function Footer() {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">AI</span>
+              <span className="text-primary-foreground font-bold text-sm">{t('brand.short')}</span>
             </div>
-            <span className="font-bold text-lg">Copilot</span>
+            <span className="font-bold text-lg">{t('brand.name')}</span>
           </div>
 
           {/* Links */}

@@ -6,7 +6,7 @@ export function HeroSection() {
   const {
     t
   } = useLanguage();
-  return <section className="relative min-h-screen flex items-center justify-center pt-20 pb-12 overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center pt-[80px] pb-[80px] overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 hero-glow" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-primary/5 blur-3xl animate-pulse-slow" />

@@ -1,0 +1,158 @@
+{
+  "brand": {
+    "short": "AI",
+    "name": "Assistant Hinterly"
+  },
+  "nav": {
+    "features": "Features",
+    "product": "Product",
+    "pricing": "Pricing",
+    "login": "Login",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "badge": "Trusted by 100,000+ Users",
+    "title": "Interview & Meeting",
+    "titleHighlight": "AI Assistant",
+    "subtitle": "Innovative dual-layer AI Copilot system that provides AI assistance and coaching running in parallel",
+    "cta": "Start For Free",
+    "secondaryCta": "Watch Demo"
+  },
+  "painPoints": {
+    "title": "The Challenge",
+    "subtitle": "Common struggles professionals face every day",
+    "items": [
+      {
+        "title": "Interview Anxiety",
+        "description": "Nervous about what to say during job interviews? You're not alone."
+      },
+      {
+        "title": "Missed Opportunities",
+        "description": "Forgetting key points or stumbling on unexpected questions costs you offers."
+      },
+      {
+        "title": "Lack of Preparation",
+        "description": "No time to prepare for every possible scenario and industry-specific questions."
+      },
+      {
+        "title": "No Real-Time Support",
+        "description": "Once you're in the interview, you're on your own with no guidance."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Why Choose Us",
+    "subtitle": "Transform your interview experience with AI-powered assistance",
+    "items": [
+      {
+        "title": "Real-Time Responses",
+        "description": "Receive instant suggestions for tricky questions",
+        "icon": "zap"
+      },
+      {
+        "title": "Actionable Insights",
+        "description": "Identify follow-up tasks and next steps on the spot",
+        "icon": "target"
+      },
+      {
+        "title": "Adaptive Feedback",
+        "description": "Overcome uncertainty with live corrections and tips",
+        "icon": "refresh"
+      },
+      {
+        "title": "Multi-Industry Support",
+        "description": "Fine-tuned AI Models for tech, consulting, finance, and more",
+        "icon": "layers"
+      }
+    ]
+  },
+  "product": {
+    "title": "#1 AI Copilot for Interviews",
+    "subtitle": "Get real-time assistance during your interviews with our comprehensive suite of AI-powered features",
+    "features": [
+      {
+        "title": "Real-time Assist",
+        "description": "Nervous about what to say during the job interviews or work meeting? Our AI copilot will generate responses instantly during your live interviews and work meetings.",
+        "highlights": [
+          {
+            "title": "Real-Time Responses",
+            "description": "Get instant AI-generated answers during live interviews"
+          },
+          {
+            "title": "Actionable Insights",
+            "description": "Identify follow-up tasks and next steps on the spot"
+          },
+          {
+            "title": "Adaptive Feedback",
+            "description": "Overcome uncertainty with live corrections and tips"
+          }
+        ]
+      },
+      {
+        "title": "Multilingual Support",
+        "description": "Truly global with our Multi-Language and even bilingual support. Communicate effortlessly with global users in their native tongue.",
+        "highlights": [
+          {
+            "title": "42 Languages",
+            "description": "Support for all major world languages"
+          },
+          {
+            "title": "Bilingual Mode",
+            "description": "Switch between languages seamlessly"
+          },
+          {
+            "title": "Native Quality",
+            "description": "Natural translations that sound authentic"
+          }
+        ]
+      },
+      {
+        "title": "Live Coaching",
+        "description": "While you're talking, our dual-layered AI Coach will provide you instant feedback and corrections to elevate your performance to the next level.",
+        "highlights": [
+          {
+            "title": "Instant Feedback",
+            "description": "Real-time corrections as you speak"
+          },
+          {
+            "title": "Performance Tips",
+            "description": "AI suggestions to improve your delivery"
+          },
+          {
+            "title": "Confidence Boost",
+            "description": "Build confidence with supportive coaching"
+          }
+        ]
+      }
+    ],
+    "cta": "Try It Now"
+  },
+  "cta": {
+    "title": "Ready to Transform Your Interview Performance?",
+    "subtitle": "Join 100,000+ professionals who trust our AI to ace their interviews with intelligent, real-time support.",
+    "button": "Start For Free",
+    "stats": [
+      {
+        "value": "Real-Time",
+        "label": "AI Assistance"
+      },
+      {
+        "value": "Dual-Layer",
+        "label": "Copilot & Coach"
+      },
+      {
+        "value": "Multi-Industry",
+        "label": "Support"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 AI Copilot. All rights reserved.",
+    "links": ["Privacy Policy", "Terms of Service", "Contact"]
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Oops! Page not found",
+    "cta": "Return to Home"
+  }
+}
