@@ -2,57 +2,71 @@ import { motion } from 'framer-motion';
 import { Play, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/hooks/useLanguage';
-
 export function HeroSection() {
-  const { t } = useLanguage();
-
-  return (
-    <section className="relative min-h-screen flex items-center justify-center pt-20 pb-12 overflow-hidden">
+  const {
+    t
+  } = useLanguage();
+  return <section className="relative min-h-screen flex items-center justify-center pt-20 pb-12 overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 hero-glow" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-primary/5 blur-3xl animate-pulse-slow" />
       
       <div className="container mx-auto px-4 sm:px-6 relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto text-center pt-[40px]">
           {/* Trust Badge */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 mb-8"
-          >
+          <motion.div initial={{
+          opacity: 0,
+          y: 20
+        }} animate={{
+          opacity: 1,
+          y: 0
+        }} transition={{
+          duration: 0.5
+        }} className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 mb-8">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
             <span className="text-sm text-muted-foreground">{t('hero.badge')}</span>
           </motion.div>
 
           {/* Main Title */}
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6"
-          >
+          <motion.h1 initial={{
+          opacity: 0,
+          y: 30
+        }} animate={{
+          opacity: 1,
+          y: 0
+        }} transition={{
+          duration: 0.6,
+          delay: 0.1
+        }} className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
             {t('hero.title')}{' '}
             <span className="gradient-text">{t('hero.titleHighlight')}</span>
           </motion.h1>
 
           {/* Subtitle */}
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 text-balance"
-          >
+          <motion.p initial={{
+          opacity: 0,
+          y: 30
+        }} animate={{
+          opacity: 1,
+          y: 0
+        }} transition={{
+          duration: 0.6,
+          delay: 0.2
+        }} className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 text-balance">
             {t('hero.subtitle')}
           </motion.p>
 
           {/* Video Section - Centered below subtitle */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="mt-10 w-full max-w-4xl mx-auto"
-          >
+          <motion.div initial={{
+          opacity: 0,
+          scale: 0.95
+        }} animate={{
+          opacity: 1,
+          scale: 1
+        }} transition={{
+          duration: 0.8,
+          delay: 0.3
+        }} className="mt-10 w-full max-w-4xl mx-auto">
             <div className="relative aspect-video rounded-xl overflow-hidden glass-card shadow-2xl">
               <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background/50" />
               <div className="absolute inset-0 flex items-center justify-center">
@@ -66,12 +80,16 @@ export function HeroSection() {
           </motion.div>
 
           {/* CTA Button - Below video */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.5 }}
-            className="mt-10 flex justify-center"
-          >
+          <motion.div initial={{
+          opacity: 0,
+          y: 30
+        }} animate={{
+          opacity: 1,
+          y: 0
+        }} transition={{
+          duration: 0.6,
+          delay: 0.5
+        }} className="mt-10 flex justify-center">
             <Button size="lg" className="group">
               {t('hero.cta')}
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -79,6 +97,5 @@ export function HeroSection() {
           </motion.div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 }
