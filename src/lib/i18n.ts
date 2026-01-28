@@ -72,22 +72,29 @@ export const translations = {
         {
           title: 'Real-time Assist',
           description: 'Nervous about what to say during the job interviews or work meeting? Our AI copilot will generate responses instantly during your live interviews and work meetings.',
-          highlights: ['Real-Time Responses', 'Actionable Insights', 'Adaptive Feedback'],
-        },
-        {
-          title: 'Web Search Tool',
-          description: 'Access the latest information during interviews without breaking your flow. Our integrated web search tool allows you to find facts, figures, and insights.',
-          highlights: ['Seamless Access', 'Real-time Research', 'Smart Filtering'],
+          highlights: [
+            { title: 'Real-Time Responses', description: 'Get instant AI-generated answers during live interviews' },
+            { title: 'Actionable Insights', description: 'Identify follow-up tasks and next steps on the spot' },
+            { title: 'Adaptive Feedback', description: 'Overcome uncertainty with live corrections and tips' },
+          ],
         },
         {
           title: 'Multilingual Support',
           description: 'Truly global with our Multi-Language and even bilingual support. Communicate effortlessly with global users in their native tongue.',
-          highlights: ['42 Languages', 'Bilingual Mode', 'Native Quality'],
+          highlights: [
+            { title: '42 Languages', description: 'Support for all major world languages' },
+            { title: 'Bilingual Mode', description: 'Switch between languages seamlessly' },
+            { title: 'Native Quality', description: 'Natural translations that sound authentic' },
+          ],
         },
         {
           title: 'Live Coaching',
           description: 'While you\'re talking, our dual-layered AI Coach will provide you instant feedback and corrections to elevate your performance to the next level.',
-          highlights: ['Instant Feedback', 'Performance Tips', 'Confidence Boost'],
+          highlights: [
+            { title: 'Instant Feedback', description: 'Real-time corrections as you speak' },
+            { title: 'Performance Tips', description: 'AI suggestions to improve your delivery' },
+            { title: 'Confidence Boost', description: 'Build confidence with supportive coaching' },
+          ],
         },
       ],
       cta: 'Try It Now',
@@ -178,22 +185,29 @@ export const translations = {
         {
           title: 'Помощь в реальном времени',
           description: 'Нервничаете, что сказать во время собеседования или рабочей встречи? Наш AI копилот мгновенно сгенерирует ответы.',
-          highlights: ['Ответы в реальном времени', 'Практические инсайты', 'Адаптивная обратная связь'],
-        },
-        {
-          title: 'Веб-поиск',
-          description: 'Получайте актуальную информацию во время интервью без потери концентрации. Наш встроенный поиск позволяет находить факты и данные.',
-          highlights: ['Бесшовный доступ', 'Исследование в реальном времени', 'Умная фильтрация'],
+          highlights: [
+            { title: 'Ответы в реальном времени', description: 'Мгновенные AI-ответы во время интервью' },
+            { title: 'Практические инсайты', description: 'Определяйте следующие шаги на месте' },
+            { title: 'Адаптивная обратная связь', description: 'Преодолевайте неуверенность с живыми советами' },
+          ],
         },
         {
           title: 'Многоязычная поддержка',
           description: 'Глобальный охват с поддержкой множества языков. Общайтесь легко с пользователями на их родном языке.',
-          highlights: ['42 языка', 'Билингвальный режим', 'Нативное качество'],
+          highlights: [
+            { title: '42 языка', description: 'Поддержка всех основных мировых языков' },
+            { title: 'Билингвальный режим', description: 'Переключайтесь между языками легко' },
+            { title: 'Нативное качество', description: 'Естественные переводы' },
+          ],
         },
         {
           title: 'Живой коучинг',
           description: 'Пока вы говорите, наш двухуровневый AI-коуч предоставит мгновенную обратную связь и коррекции для повышения вашего уровня.',
-          highlights: ['Мгновенная обратная связь', 'Советы по производительности', 'Повышение уверенности'],
+          highlights: [
+            { title: 'Мгновенная обратная связь', description: 'Коррекции в реальном времени' },
+            { title: 'Советы по производительности', description: 'AI-подсказки для улучшения' },
+            { title: 'Повышение уверенности', description: 'Поддерживающий коучинг' },
+          ],
         },
       ],
       cta: 'Попробовать сейчас',
