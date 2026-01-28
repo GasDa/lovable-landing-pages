@@ -11,7 +11,7 @@ export function ProductSection() {
     description: string;
     highlights: string[];
   }>;
-  return <section className="py-24 relative sm:py-[40px]" id="product">
+  return <section className="py-24 relative sm:py-[40px] pb-[80px]" id="product">
       <div className="container mx-auto px-4 sm:px-6">
         {/* Section Header */}
         <motion.div initial={{
@@ -72,15 +72,8 @@ export function ProductSection() {
               {/* Visual */}
               <div className="flex-1 w-full">
                 <div className="relative aspect-video rounded-xl overflow-hidden glass-card p-1">
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-xl" />
-                  <div className="w-full h-full rounded-lg bg-gradient-to-br from-secondary to-muted flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-16 h-16 mx-auto mb-4 rounded-xl bg-primary/20 flex items-center justify-center">
-                        <span className="text-2xl font-bold text-primary">{index + 1}</span>
-                      </div>
-                      <p className="text-muted-foreground text-sm">{feature.title}</p>
-                    </div>
-                  </div>
+                  
+                  
                 </div>
               </div>
             </motion.div>)}
