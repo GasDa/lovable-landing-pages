@@ -3,13 +3,18 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Globe } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/hooks/useLanguage';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const { language, setLanguage, t } = useLanguage();
+  const { language, t } = useLanguage();
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const toggleLanguage = () => {
-    setLanguage(language === 'en' ? 'ru' : 'en');
+    const nextLang = language === 'en' ? 'ru' : 'en';
+    const pathWithoutLang = location.pathname.replace(/^\/(en|ru)/, '');
+    navigate(`/${nextLang}${pathWithoutLang}${location.hash}`);
   };
 
   return (
