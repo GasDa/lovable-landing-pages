@@ -11,7 +11,7 @@ export function PainPointsSection() {
     description: string;
   }>;
   return <section className="py-24 relative pt-[80px] pb-[80px] sm:py-[40px]" id="pain-points">
-      <div className="container mx-auto px-4 sm:px-6">
+      <div className="container mx-auto px-4 sm:px-6 pt-[10px]">
         {/* Section Header */}
         <motion.div initial={{
         opacity: 0,
