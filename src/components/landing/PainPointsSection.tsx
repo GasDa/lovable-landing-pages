@@ -10,7 +10,7 @@ export function PainPointsSection() {
     title: string;
     description: string;
   }>;
-  return <section className="py-24 sm:py-32 relative pt-[80px] pb-[80px]" id="pain-points">
+  return <section className="py-24 relative pt-[80px] pb-[80px] sm:py-[40px]" id="pain-points">
       <div className="container mx-auto px-4 sm:px-6">
         {/* Section Header */}
         <motion.div initial={{

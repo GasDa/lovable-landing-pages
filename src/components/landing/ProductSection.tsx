@@ -11,7 +11,7 @@ export function ProductSection() {
     description: string;
     highlights: string[];
   }>;
-  return <section className="py-24 relative sm:py-[80px]" id="product">
+  return <section className="py-24 relative sm:py-[40px]" id="product">
       <div className="container mx-auto px-4 sm:px-6">
         {/* Section Header */}
         <motion.div initial={{
