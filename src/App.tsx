@@ -24,16 +24,18 @@ const LanguageLayout = () => {
 
   useEffect(() => {
     if (!lang || lang !== normalizedLanguage) {
-      navigate(`/${normalizedLanguage}`, { replace: true });
+      navigate(`/${normalizedLanguage}/`, { replace: true });
     }
   }, [lang, normalizedLanguage, navigate]);
 
   return (
     <LanguageProvider
       initialLanguage={normalizedLanguage}
-      onLanguageChange={(nextLanguage) =>
-        navigate(`/${nextLanguage}${pathWithoutLanguage}${location.hash}`, { replace: true })
-      }
+      onLanguageChange={(nextLanguage) => {
+        const basePath = `/${nextLanguage}${pathWithoutLanguage || ""}`;
+        const normalizedPath = basePath.endsWith("/") ? basePath : `${basePath}/`;
+        navigate(`${normalizedPath}${location.hash}`, { replace: true });
+      }}
     >
       <Outlet />
     </LanguageProvider>

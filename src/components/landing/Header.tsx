@@ -27,8 +27,12 @@ export function Header() {
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center gap-2"
           >
-            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">{t('brand.short')}</span>
+            <div className="w-8 h-8 rounded-lg overflow-hidden bg-primary/20 flex items-center justify-center">
+              <img
+                src="/brand-mark.svg"
+                alt="Brand mark"
+                className="w-full h-full object-cover"
+              />
             </div>
             <span className="font-bold text-lg">{t('brand.name')}</span>
           </motion.div>
