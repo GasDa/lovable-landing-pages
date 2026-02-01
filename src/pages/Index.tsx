@@ -5,6 +5,7 @@ import { BenefitsSection } from '@/components/landing/BenefitsSection';
 import { ProductSection } from '@/components/landing/ProductSection';
 import { CTASection } from '@/components/landing/CTASection';
 import { Footer } from '@/components/landing/Footer';
+import { FloatingCta } from '@/components/landing/FloatingCta';
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
         <CTASection />
       </main>
       <Footer />
+      <FloatingCta />
     </div>
   );
 };
