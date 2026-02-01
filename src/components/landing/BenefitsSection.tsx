@@ -65,6 +65,7 @@ export function BenefitsSection() {
               </motion.div>;
         })}
         </div>
+
       </div>
     </section>;
 }

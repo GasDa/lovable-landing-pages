@@ -1,149 +1,119 @@
 {
   "brand": {
     "short": "AI",
-    "name": "Assistant Hinterly"
+    "name": "Hinterly Assistant"
   },
   "nav": {
-    "features": "Features",
-    "product": "Product",
-    "pricing": "Pricing",
+    "features": "Outcome",
+    "product": "How it works",
+    "pricing": "Pain",
     "login": "Login",
     "getStarted": "Get Started"
   },
   "hero": {
     "badge": "Trusted by 100,000+ Users",
-    "title": "Interview & Meeting",
-    "titleHighlight": "AI Assistant",
-    "subtitle": "Innovative dual-layer AI Copilot system that provides AI assistance and coaching running in parallel",
-    "cta": "Start For Free",
-    "secondaryCta": "Watch Demo"
+    "title": "Get your dream job",
+    "titleHighlight": "with AI help",
+    "subtitle": "Weeks, not months. The service costs like half a day of work — and saves months of searching.",
+    "audience": "For people who are job hunting and tired of interview failures.",
+    "cta": "Start for free",
+    "secondaryCta": "Watch demo"
   },
   "painPoints": {
-    "title": "The Challenge",
-    "subtitle": "Common struggles professionals face every day",
+    "title": "Candidate pain",
+    "subtitle": "One screen, no fluff. Everything that kills the offer.",
     "items": [
       {
-        "title": "Interview Anxiety",
-        "description": "Nervous about what to say during job interviews? You're not alone."
+        "title": "Freeze on questions",
+        "description": "A strong offer starts with a strong answer."
       },
       {
-        "title": "Missed Opportunities",
-        "description": "Forgetting key points or stumbling on unexpected questions costs you offers."
+        "title": "Interview feels like a lottery",
+        "description": "Make it manageable and predictable."
       },
       {
-        "title": "Lack of Preparation",
-        "description": "No time to prepare for every possible scenario and industry-specific questions."
+        "title": "Lose the chance over one mistake",
+        "description": "Every interview is a chance. Don’t waste months on one error."
       },
       {
-        "title": "No Real-Time Support",
-        "description": "Once you're in the interview, you're on your own with no guidance."
+        "title": "Searching takes too long",
+        "description": "Fastest upgrade: cheaper than one “lost” day."
       }
     ]
   },
   "benefits": {
-    "title": "Why Choose Us",
-    "subtitle": "Transform your interview experience with AI-powered assistance",
+    "title": "Main benefit",
+    "subtitle": "Earn hundreds of thousands of rubles by landing a dream job in weeks, not months.",
     "items": [
       {
-        "title": "Real-Time Responses",
-        "description": "Receive instant suggestions for tricky questions",
+        "title": "Strong answers",
+        "description": "Real‑time prompts for tough questions",
         "icon": "zap"
       },
       {
-        "title": "Actionable Insights",
-        "description": "Identify follow-up tasks and next steps on the spot",
+        "title": "Offer focus",
+        "description": "Clear structure and no fluff",
         "icon": "target"
       },
       {
-        "title": "Adaptive Feedback",
-        "description": "Overcome uncertainty with live corrections and tips",
+        "title": "Confidence in the interview",
+        "description": "Corrections and prompts in the moment",
         "icon": "refresh"
       },
       {
-        "title": "Multi-Industry Support",
-        "description": "Fine-tuned AI Models for tech, consulting, finance, and more",
+        "title": "Fully invisible",
+        "description": "The assistant is not visible to others",
+        "icon": "layers"
+      },
+      {
+        "title": "No VPN",
+        "description": "Legal and works without workarounds",
         "icon": "layers"
       }
     ]
   },
   "product": {
-    "title": "#1 AI Copilot for Interviews",
-    "subtitle": "Get real-time assistance during your interviews with our comprehensive suite of AI-powered features",
+    "title": "How it works",
+    "subtitle": "One‑screen visualization: demo and prototype.",
     "features": [
       {
-        "title": "Real-time Assist",
-        "description": "Nervous about what to say during the job interviews or work meeting? Our AI copilot will generate responses instantly during your live interviews and work meetings.",
+        "title": "Live prompts",
+        "description": "AI helps in the moment: phrasing, structure, confidence.",
         "highlights": [
-          {
-            "title": "Real-Time Responses",
-            "description": "Get instant AI-generated answers during live interviews"
-          },
-          {
-            "title": "Actionable Insights",
-            "description": "Identify follow-up tasks and next steps on the spot"
-          },
-          {
-            "title": "Adaptive Feedback",
-            "description": "Overcome uncertainty with live corrections and tips"
-          }
+          { "title": "Clear answers", "description": "A strong offer starts with a strong answer" },
+          { "title": "Control", "description": "Interview becomes manageable" },
+          { "title": "Speed", "description": "Weeks instead of months" }
         ]
       },
       {
-        "title": "Multilingual Support",
-        "description": "Truly global with our Multi-Language and even bilingual support. Communicate effortlessly with global users in their native tongue.",
+        "title": "Ready for any scenario",
+        "description": "Preparation for unexpected questions and interview formats.",
         "highlights": [
-          {
-            "title": "42 Languages",
-            "description": "Support for all major world languages"
-          },
-          {
-            "title": "Bilingual Mode",
-            "description": "Switch between languages seamlessly"
-          },
-          {
-            "title": "Native Quality",
-            "description": "Natural translations that sound authentic"
-          }
+          { "title": "No VPN", "description": "Works legally" },
+          { "title": "Strong offer", "description": "Accurate wording and structure" },
+          { "title": "Savings", "description": "Costs like half a day of work" }
         ]
       },
       {
-        "title": "Live Coaching",
-        "description": "While you're talking, our dual-layered AI Coach will provide you instant feedback and corrections to elevate your performance to the next level.",
+        "title": "Coaching in process",
+        "description": "Corrections and focus on what employers choose.",
         "highlights": [
-          {
-            "title": "Instant Feedback",
-            "description": "Real-time corrections as you speak"
-          },
-          {
-            "title": "Performance Tips",
-            "description": "AI suggestions to improve your delivery"
-          },
-          {
-            "title": "Confidence Boost",
-            "description": "Build confidence with supportive coaching"
-          }
+          { "title": "Don’t be average", "description": "Be the one they choose" },
+          { "title": "No fluff", "description": "Only what impacts the decision" },
+          { "title": "Every interview is a chance", "description": "Don’t lose it" }
         ]
       }
     ],
-    "cta": "Try It Now"
+    "cta": "Try it now"
   },
   "cta": {
-    "title": "Ready to Transform Your Interview Performance?",
-    "subtitle": "Join 100,000+ professionals who trust our AI to ace their interviews with intelligent, real-time support.",
-    "button": "Start For Free",
+    "title": "Ready to get hired faster?",
+    "subtitle": "Cheaper than one “lost” day and saves months of searching.",
+    "button": "Start for free",
     "stats": [
-      {
-        "value": "Real-Time",
-        "label": "AI Assistance"
-      },
-      {
-        "value": "Dual-Layer",
-        "label": "Copilot & Coach"
-      },
-      {
-        "value": "Multi-Industry",
-        "label": "Support"
-      }
+      { "value": "Weeks", "label": "instead of months" },
+      { "value": "No VPN", "label": "legal" },
+      { "value": "Strong answer", "label": "strong offer" }
     ]
   },
   "footer": {
@@ -152,7 +122,7 @@
   },
   "notFound": {
     "title": "404",
-    "subtitle": "Oops! Page not found",
-    "cta": "Return to Home"
+    "subtitle": "Page not found",
+    "cta": "Return home"
   }
 }

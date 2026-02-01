@@ -1,6 +1,4 @@
 import { motion } from 'framer-motion';
-import { Play, ArrowRight } from 'lucide-react';
-import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/hooks/useLanguage';
 export function HeroSection() {
   const {
@@ -26,6 +24,7 @@ export function HeroSection() {
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
             <span className="text-sm text-muted-foreground">{t('hero.badge')}</span>
           </motion.div>
+          <div id="floating-cta-start" className="h-1" aria-hidden="true" />
 
           {/* Main Title */}
           <motion.h1 initial={{
@@ -55,32 +54,7 @@ export function HeroSection() {
         }} className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 text-balance">
             {t('hero.subtitle')}
           </motion.p>
-
-          {/* Video Section - Centered below subtitle */}
-          <motion.div initial={{
-          opacity: 0,
-          scale: 0.95
-        }} animate={{
-          opacity: 1,
-          scale: 1
-        }} transition={{
-          duration: 0.8,
-          delay: 0.3
-        }} className="mt-10 w-full max-w-4xl mx-auto">
-            <div className="relative aspect-video rounded-xl overflow-hidden glass-card shadow-2xl">
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background/50" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-primary/20 flex items-center justify-center backdrop-blur-sm cursor-pointer hover:bg-primary/30 transition-colors">
-                  <Play className="w-6 h-6 sm:w-8 sm:h-8 text-primary ml-1" />
-                </div>
-              </div>
-              {/* Mock Video Thumbnail */}
-              <div className="w-full h-full bg-gradient-to-br from-secondary to-muted" />
-            </div>
-          </motion.div>
-
-          {/* CTA Button - Below video */}
-          <motion.div initial={{
+          <motion.p initial={{
           opacity: 0,
           y: 30
         }} animate={{
@@ -88,13 +62,12 @@ export function HeroSection() {
           y: 0
         }} transition={{
           duration: 0.6,
-          delay: 0.5
-        }} className="mt-10 flex justify-center">
-            <Button size="lg" className="group">
-              {t('hero.cta')}
-              <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </Button>
-          </motion.div>
+          delay: 0.25
+        }} className="text-sm sm:text-base text-muted-foreground/80 max-w-2xl mx-auto mb-8">
+            {t('hero.audience')}
+          </motion.p>
+
+          {/* Video Section removed */}
         </div>
       </div>
     </section>;

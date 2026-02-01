@@ -1,9 +1,47 @@
+import { useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/hooks/useLanguage";
 
+const START_MARKER_ID = "floating-cta-start";
+const END_MARKER_ID = "floating-cta-end";
+
 export function FloatingCta() {
   const { t } = useLanguage();
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const update = () => {
+      const startEl = document.getElementById(START_MARKER_ID);
+      const endEl = document.getElementById(END_MARKER_ID);
+      if (!startEl || !endEl) {
+        setIsVisible(false);
+        return;
+      }
+
+      const viewportHeight = window.innerHeight;
+      const startRect = startEl.getBoundingClientRect();
+      const endRect = endEl.getBoundingClientRect();
+
+      const passedStart = startRect.top <= viewportHeight - 80;
+      const reachedEnd = endRect.top <= viewportHeight - 120;
+
+      setIsVisible(passedStart && !reachedEnd);
+    };
+
+    update();
+    window.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+
+    return () => {
+      window.removeEventListener("scroll", update);
+      window.removeEventListener("resize", update);
+    };
+  }, []);
+
+  if (!isVisible) {
+    return null;
+  }
 
   return (
     <div className="fixed inset-x-0 bottom-4 z-50 flex justify-center px-4 pb-[env(safe-area-inset-bottom)]">
