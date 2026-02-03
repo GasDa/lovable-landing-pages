@@ -147,6 +147,54 @@
       }
     ]
   },
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "Choose a format — full access to all key features.",
+    "features": [
+      "Models — Latest OpenAI",
+      "Fully undetectable (desktop app)",
+      "Advanced AI Model (higher‑performance accuracy)",
+      "History saved",
+      "Detailed feedback & insights",
+      "7-day money-back guarantee"
+    ],
+    "plans": [
+      {
+        "title": "Starter",
+        "price": "₽699",
+        "period": "",
+        "description": "Limited plan for 90 minutes, no refund guarantee.",
+        "cta": "Start",
+        "features": [
+          "Models — Latest OpenAI",
+          "Fully undetectable (desktop app)",
+          "Advanced AI Model (higher‑performance accuracy)",
+          "History saved",
+          "Detailed feedback & insights"
+        ]
+      },
+      {
+        "title": "Monthly plan",
+        "price": "₽3,490",
+        "period": "/month",
+        "description": "Full access for 1 month.",
+        "cta": "Subscribe",
+        "oldPrice": "₽4,490",
+        "discount": "-22%"
+      },
+      {
+        "title": "Six‑month plan",
+        "price": "₽1,990",
+        "period": "/month",
+        "description": "Full access for 6 months.",
+        "cta": "Subscribe",
+        "oldPrice": "₽3,990",
+        "discount": "-50%",
+        "featured": true,
+        "badge": "Best value"
+      }
+    ]
+  },
   "footer": {
     "copyright": "© 2026 Hinterly AI Assistant. All rights reserved.",
     "links": [

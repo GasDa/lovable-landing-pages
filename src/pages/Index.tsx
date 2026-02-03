@@ -6,18 +6,20 @@ import { ProductSection } from '@/components/landing/ProductSection';
 import { CTASection } from '@/components/landing/CTASection';
 import { Footer } from '@/components/landing/Footer';
 import { FloatingCta } from '@/components/landing/FloatingCta';
+import { PricingSection } from '@/components/landing/PricingSection';
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <main>
-        <HeroSection />
-        <PainPointsSection />
-        <BenefitsSection />
-        <ProductSection />
-        <CTASection />
-      </main>
+        <main>
+          <HeroSection />
+          <PainPointsSection />
+          <BenefitsSection />
+          <ProductSection />
+          <PricingSection />
+          <CTASection />
+        </main>
       <Footer />
       <FloatingCta />
     </div>

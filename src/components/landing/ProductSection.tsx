@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/hooks/useLanguage';
+import { scrollToId } from '@/lib/scrollToId';
 export function ProductSection() {
   const {
     t
@@ -76,7 +77,11 @@ export function ProductSection() {
                       </div>
                     </li>)}
                 </ul>
-                <Button variant="outline" className="group border-primary/50 bg-primary/10 hover:bg-primary/20 text-foreground">
+                <Button
+                  variant="outline"
+                  className="group border-primary/50 bg-primary/10 hover:bg-primary/20 text-foreground"
+                  onClick={() => scrollToId('pricing')}
+                >
                   {t('product.cta')}
                   <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Button>

@@ -4,6 +4,7 @@ import { Menu, X, Globe } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/hooks/useLanguage';
 import { useNavigate, useLocation } from 'react-router-dom';
+import { scrollToId } from '@/lib/scrollToId';
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,6 +16,10 @@ export function Header() {
     const nextLang = language === 'en' ? 'ru' : 'en';
     const pathWithoutLang = location.pathname.replace(/^\/(en|ru)/, '');
     navigate(`/${nextLang}${pathWithoutLang}${location.hash}`);
+  };
+  const scrollToPricing = () => {
+    scrollToId('pricing');
+    setIsOpen(false);
   };
 
   return (
@@ -60,7 +65,7 @@ export function Header() {
               <span className="uppercase text-sm font-medium">{language}</span>
             </button>
             <Button variant="ghost">{t('nav.login')}</Button>
-            <Button>{t('nav.getStarted')}</Button>
+            <Button onClick={scrollToPricing}>{t('nav.getStarted')}</Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -114,7 +119,7 @@ export function Header() {
               </a>
               <div className="flex flex-col gap-2 pt-2 border-t border-border">
                 <Button variant="ghost" className="justify-start">{t('nav.login')}</Button>
-                <Button className="justify-start">{t('nav.getStarted')}</Button>
+                <Button className="justify-start" onClick={scrollToPricing}>{t('nav.getStarted')}</Button>
               </div>
             </div>
           </motion.div>
