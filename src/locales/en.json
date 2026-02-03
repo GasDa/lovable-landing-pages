@@ -1,128 +1,163 @@
 {
   "brand": {
     "short": "AI",
-    "name": "Hinterly Assistant"
+    "name": "Hinterly AI Assistant"
   },
   "nav": {
-    "features": "Outcome",
-    "product": "How it works",
-    "pricing": "Pain",
-    "login": "Login",
+    "features": "Benefits",
+    "product": "How It Works",
+    "pricing": "Challenges",
+    "login": "Log In",
     "getStarted": "Get Started"
   },
   "hero": {
-    "badge": "Trusted by 100,000+ Users",
-    "title": "Get your dream job",
-    "titleHighlight": "with AI help",
-    "subtitle": "Weeks, not months. The service costs like half a day of work — and saves months of searching.",
-    "audience": "For people who are job hunting and tired of interview failures.",
-    "cta": "Start for free",
-    "secondaryCta": "Watch demo"
+    "badge": "Trusted by 1,000+ users",
+    "title": "Land your dream job",
+    "titleHighlight": "in weeks, not months.",
+    "subtitle": "Costs less than half a day of work, but saves months of job hunting.",
+    "audience": "For those tired of failing interviews and missing opportunities.",
+    "cta": "Start for Free",
+    "secondaryCta": "Watch Demo"
   },
   "painPoints": {
-    "title": "Candidate pain",
-    "subtitle": "One screen, no fluff. Everything that kills the offer.",
+    "title": "Worried about bombing a hard-to-get interview?",
+    "subtitle": "Poor answers to unexpected questions can cost you the offer.",
     "items": [
       {
-        "title": "Freeze on questions",
-        "description": "A strong offer starts with a strong answer."
+        "title": "Feeling stressed during interviews?",
+        "description": "Thoughts get jumbled, focus slips, and you fear forgetting what you know."
       },
       {
-        "title": "Interview feels like a lottery",
-        "description": "Make it manageable and predictable."
+        "title": "Hit with unexpected questions?",
+        "description": "Off-topic, unfamiliar, or tricky questions leave you stuck."
       },
       {
-        "title": "Lose the chance over one mistake",
-        "description": "Every interview is a chance. Don’t waste months on one error."
+        "title": "Job search taking too long?",
+        "description": "Weeks of interviews, polite rejections without explanations, and the sense of being stuck."
       },
       {
-        "title": "Searching takes too long",
-        "description": "Fastest upgrade: cheaper than one “lost” day."
+        "title": "Don’t want one slip-up to ruin your chance?",
+        "description": "Months of preparation can be wasted because of a single uncertain answer."
       }
     ]
   },
   "benefits": {
-    "title": "Main benefit",
-    "subtitle": "Earn hundreds of thousands of rubles by landing a dream job in weeks, not months.",
+    "title": "Why Choose Us",
+    "subtitle": "Earn hundreds of thousands by landing your dream job in weeks, not months.",
     "items": [
       {
-        "title": "Strong answers",
-        "description": "Real‑time prompts for tough questions",
+        "title": "Time-Saving",
+        "description": "Weeks instead of months searching for a job.",
+        "icon": "clock"
+      },
+      {
+        "title": "Confident, Well-Structured Answers",
+        "description": "Smart, on-the-spot guidance for all types of questions.",
         "icon": "zap"
       },
       {
-        "title": "Offer focus",
-        "description": "Clear structure and no fluff",
-        "icon": "target"
+        "title": "Works for Everyone",
+        "description": "No matter your profession, experience, or position.",
+        "icon": "users"
       },
       {
-        "title": "Confidence in the interview",
-        "description": "Corrections and prompts in the moment",
-        "icon": "refresh"
-      },
-      {
-        "title": "Fully invisible",
-        "description": "The assistant is not visible to others",
-        "icon": "layers"
-      },
-      {
-        "title": "No VPN",
-        "description": "Legal and works without workarounds",
-        "icon": "layers"
+        "title": "Affordable",
+        "description": "Costs less than half a day of work.",
+        "icon": "credit-card"
       }
     ]
   },
   "product": {
-    "title": "How it works",
-    "subtitle": "One‑screen visualization: demo and prototype.",
+    "title": "How It Works",
+    "subtitle": "A tool that helps you ace interviews confidently — from the first question to the offer.",
     "features": [
       {
-        "title": "Live prompts",
-        "description": "AI helps in the moment: phrasing, structure, confidence.",
+        "title": "For any profession and experience level",
+        "description": "Helps you present as a strong candidate, regardless of role, industry, or seniority.",
         "highlights": [
-          { "title": "Clear answers", "description": "A strong offer starts with a strong answer" },
-          { "title": "Control", "description": "Interview becomes manageable" },
-          { "title": "Speed", "description": "Weeks instead of months" }
+          {
+            "title": "All levels",
+            "description": "From students and juniors to C-level executives"
+          },
+          {
+            "title": "All industries",
+            "description": "IT, healthcare, sales, management, service, government"
+          },
+          {
+            "title": "Privacy",
+            "description": "Your data is secure and never shared with third parties"
+          }
         ]
       },
       {
-        "title": "Ready for any scenario",
-        "description": "Preparation for unexpected questions and interview formats.",
+        "title": "Real-time interview support",
+        "description": "Assistant helps structure answers, stay focused, and avoid overthinking during the interview.",
         "highlights": [
-          { "title": "No VPN", "description": "Works legally" },
-          { "title": "Strong offer", "description": "Accurate wording and structure" },
-          { "title": "Savings", "description": "Costs like half a day of work" }
+          {
+            "title": "Invisible to others",
+            "description": "The assistant isn’t visible to participants, systems, or bots"
+          },
+          {
+            "title": "Personalized prompts",
+            "description": "Answers and structure adapt to you and the interview context"
+          },
+          {
+            "title": "Quick setup",
+            "description": "Get started in 5 minutes with no complicated setup"
+          }
         ]
       },
       {
-        "title": "Coaching in process",
-        "description": "Corrections and focus on what employers choose.",
+        "title": "Ready for any interview format",
+        "description": "Works globally, on any platform, without workarounds.",
         "highlights": [
-          { "title": "Don’t be average", "description": "Be the one they choose" },
-          { "title": "No fluff", "description": "Only what impacts the decision" },
-          { "title": "Every interview is a chance", "description": "Don’t lose it" }
+          {
+            "title": "Legal and safe",
+            "description": "No VPNs or circumventions required"
+          },
+          {
+            "title": "Multilingual support",
+            "description": "Suitable for interviews in any language"
+          },
+          {
+            "title": "Compatible",
+            "description": "Works with all platforms and messengers"
+          }
         ]
       }
     ],
-    "cta": "Try it now"
+    "cta": "Try It Now"
   },
   "cta": {
-    "title": "Ready to get hired faster?",
-    "subtitle": "Cheaper than one “lost” day and saves months of searching.",
-    "button": "Start for free",
+    "title": "Ready to land your job faster?",
+    "subtitle": "Costs less than a few hours of work but saves months of searching.",
+    "button": "Start for Free",
     "stats": [
-      { "value": "Weeks", "label": "instead of months" },
-      { "value": "No VPN", "label": "legal" },
-      { "value": "Strong answer", "label": "strong offer" }
+      {
+        "value": "Weeks",
+        "label": "instead of months"
+      },
+      {
+        "value": "Fully legal",
+        "label": "no VPNs or hacks"
+      },
+      {
+        "value": "Strong offers",
+        "label": "confident, structured answers on the spot"
+      }
     ]
   },
   "footer": {
-    "copyright": "© 2025 AI Copilot. All rights reserved.",
-    "links": ["Privacy Policy", "Terms of Service", "Contact"]
+    "copyright": "© 2026 Hinterly AI Assistant. All rights reserved.",
+    "links": [
+      "Privacy Policy",
+      "Terms of Use",
+      "Contact Us"
+    ]
   },
   "notFound": {
     "title": "404",
     "subtitle": "Page not found",
-    "cta": "Return home"
+    "cta": "Return to Home"
   }
 }

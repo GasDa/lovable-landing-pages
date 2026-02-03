@@ -66,12 +66,13 @@ export function HeroSection() {
         }} className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
             {t('hero.audience')}
           </motion.p>
-          <div className="mx-auto w-full max-w-[920px]">
-            <div className="relative aspect-[16/8] rounded-3xl glass-card border border-white/10 overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-primary/10" />
-              <div className="absolute left-6 top-6 h-3 w-2/3 rounded-full bg-white/10" />
-              <div className="absolute left-6 top-12 h-3 w-1/2 rounded-full bg-white/10" />
-              <div className="absolute left-6 bottom-6 h-8 w-36 rounded-full bg-primary/30" />
+          <div className="mx-auto w-full max-w-[980px]">
+            <div className="relative aspect-[16/10] rounded-3xl overflow-hidden bg-transparent">
+              <img
+                src="/screenshots/hero-1.png"
+                alt=""
+                className="w-full h-full object-contain"
+              />
             </div>
           </div>
 

@@ -15,9 +15,9 @@ export function ProductSection() {
     }>;
   }>;
   const visuals = [
-    "/screenshots/product-1.svg",
-    "/screenshots/product-2.svg",
-    "/screenshots/product-3.svg"
+    "/screenshots/product-1.png",
+    "/screenshots/product-2.png",
+    "/screenshots/product-3.png"
   ];
   return <section className="py-24 relative sm:py-[40px] pb-[80px] pt-[30px]" id="product">
       <div className="container mx-auto px-4 sm:px-6">
@@ -84,11 +84,11 @@ export function ProductSection() {
 
               {/* Visual */}
               <div className="flex-1 w-full">
-                <div className="relative aspect-video rounded-2xl overflow-hidden glass-card p-1 border border-white/10">
+                <div className="relative aspect-[16/10] rounded-3xl overflow-hidden glass-card p-2 border border-white/10 bg-black/20">
                   <img
                     src={visuals[index % visuals.length]}
                     alt=""
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain rounded-2xl"
                   />
                 </div>
               </div>

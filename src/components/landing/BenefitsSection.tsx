@@ -1,7 +1,11 @@
 import { motion } from 'framer-motion';
-import { Zap, Target, RefreshCw, Layers } from 'lucide-react';
+import { Zap, Target, RefreshCw, Layers, Clock, CreditCard, Rocket, Users } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage';
 const iconMap = {
+  clock: Clock,
+  'credit-card': CreditCard,
+  users: Users,
+  rocket: Rocket,
   zap: Zap,
   target: Target,
   refresh: RefreshCw,
