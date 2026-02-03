@@ -20,7 +20,7 @@ export function BenefitsSection() {
     description: string;
     icon: string;
   }>;
-  return <section className="py-24 sm:py-32 relative" id="features">
+  return <section className="pt-14 pb-24 sm:pt-20 sm:pb-32 relative" id="features">
       {/* Background Glow */}
       <div className="absolute inset-0 hero-glow opacity-50 py-[40px] pb-[40px]" />
       

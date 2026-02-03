@@ -9,7 +9,7 @@ export function CTASection() {
   const stats = t('cta.stats') as Array<{ value: string; label: string }>;
 
   return (
-    <section className="py-24 sm:py-32 relative overflow-hidden">
+    <section className="pt-14 pb-24 sm:pt-20 sm:pb-32 relative overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-primary/10 blur-3xl" />

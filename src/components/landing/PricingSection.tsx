@@ -22,7 +22,7 @@ export function PricingSection() {
   const defaultFeatures = t("pricing.features") as string[];
 
   return (
-    <section className="pt-24 sm:pt-32 pb-8 sm:pb-10 relative" id="pricing">
+    <section className="pt-14 sm:pt-20 pb-8 sm:pb-10 relative" id="pricing">
       <div className="absolute inset-0 hero-glow opacity-40" />
       <div className="container mx-auto px-4 sm:px-6 relative z-10">
         <motion.div

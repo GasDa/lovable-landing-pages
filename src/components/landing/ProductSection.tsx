@@ -20,7 +20,7 @@ export function ProductSection() {
     "/screenshots/product-2.png",
     "/screenshots/product-3.png"
   ];
-  return <section className="py-24 relative sm:py-[40px] pb-[80px] pt-[30px]" id="product">
+  return <section className="pt-[18px] pb-[80px] sm:pt-[24px] sm:pb-[40px] relative" id="product">
       <div className="container mx-auto px-4 sm:px-6">
         {/* Section Header */}
         <motion.div initial={{
