@@ -6,7 +6,7 @@ import { useLanguage } from "@/hooks/useLanguage";
 
 export function PricingSection() {
   const { t } = useLanguage();
-  const [activeIndex, setActiveIndex] = useState(1);
+  const [activeIndex, setActiveIndex] = useState(2);
   const plans = t("pricing.plans") as Array<{
     title: string;
     price: string;
@@ -59,7 +59,7 @@ export function PricingSection() {
                 }
               }}
               className={`relative rounded-3xl border cursor-pointer outline-none transition-all ${
-                activeIndex === index || plan.featured
+                activeIndex === index
                   ? "border-cyan-300/60 shadow-[0_0_50px_rgba(34,211,238,0.2)]"
                   : "border-white/10"
               } bg-black/30 backdrop-blur-md p-6 sm:p-8 focus-visible:ring-2 focus-visible:ring-cyan-300/60`}
@@ -91,11 +91,11 @@ export function PricingSection() {
               <p className="text-muted-foreground mb-6">{plan.description}</p>
               <Button
                 className={`w-full rounded-full ${
-                  activeIndex === index || plan.featured
+                  activeIndex === index
                     ? "bg-gradient-to-r from-cyan-300 via-sky-300 to-violet-300 text-slate-900"
                     : "bg-primary/20 text-foreground hover:bg-primary/30"
                 }`}
-                variant={plan.featured ? "default" : "ghost"}
+                variant={activeIndex === index ? "default" : "ghost"}
               >
                 {plan.cta}
               </Button>

@@ -6,7 +6,7 @@
   "nav": {
     "features": "Benefits",
     "product": "How it works",
-    "pricing": "Subscriptions",
+    "pricing": "Pricing",
     "login": "Log In",
     "getStarted": "Get Started"
   },
@@ -151,6 +151,7 @@
     "title": "Pricing",
     "subtitle": "Choose a format — full access to all key features.",
     "features": [
+      "Unlimited interview sessions",
       "Models — Latest OpenAI",
       "Fully undetectable (desktop app)",
       "Advanced AI Model (higher‑performance accuracy)",
@@ -165,7 +166,10 @@
         "period": "",
         "description": "Limited plan for 90 minutes, no refund guarantee.",
         "cta": "Start",
+        "oldPrice": "₽999",
+        "discount": "-30%",
         "features": [
+          "Interview sessions limited to 90 minutes",
           "Models — Latest OpenAI",
           "Fully undetectable (desktop app)",
           "Advanced AI Model (higher‑performance accuracy)",
@@ -179,8 +183,8 @@
         "period": "/month",
         "description": "Full access for 1 month.",
         "cta": "Subscribe",
-        "oldPrice": "₽4,490",
-        "discount": "-22%"
+        "oldPrice": "₽5,550",
+        "discount": "-37%"
       },
       {
         "title": "Six‑month plan",
