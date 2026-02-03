@@ -25,6 +25,7 @@ export function PricingSection() {
     <section className="pt-14 sm:pt-20 pb-8 sm:pb-10 relative" id="pricing">
       <div className="absolute inset-0 hero-glow opacity-40" />
       <div className="container mx-auto px-4 sm:px-6 relative z-10">
+        <div id="floating-cta-dock" className="h-1" aria-hidden="true" />
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -111,6 +112,15 @@ export function PricingSection() {
               </ul>
             </motion.div>
           ))}
+        </div>
+
+        <div className="sticky bottom-4 mt-10 flex justify-center pb-[env(safe-area-inset-bottom)]">
+          <Button
+            size="lg"
+            className="group w-full max-w-[300px] sm:max-w-[340px] rounded-full bg-gradient-to-r from-cyan-300 via-sky-300 to-violet-300 text-slate-900 shadow-[0_0_20px_rgba(34,211,238,0.9),0_0_40px_rgba(56,189,248,0.6),0_12px_26px_-12px_rgba(99,102,241,0.7)] ring-1 ring-white/60 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_26px_rgba(34,211,238,1),0_0_60px_rgba(56,189,248,0.8),0_16px_34px_-12px_rgba(99,102,241,0.9)] focus-visible:ring-2 focus-visible:ring-white/80 text-base sm:text-lg font-semibold tracking-[0.08em] uppercase"
+          >
+            {t("cta.button")}
+          </Button>
         </div>
       </div>
     </section>

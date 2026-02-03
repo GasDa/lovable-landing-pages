@@ -1,15 +1,12 @@
 import { motion } from 'framer-motion';
-import { ArrowRight } from 'lucide-react';
-import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/hooks/useLanguage';
-import { scrollToId } from '@/lib/scrollToId';
 
 export function CTASection() {
   const { t } = useLanguage();
   const stats = t('cta.stats') as Array<{ value: string; label: string }>;
 
   return (
-    <section className="pt-14 pb-24 sm:pt-20 sm:pb-32 relative overflow-hidden">
+    <section className="pt-14 pb-10 sm:pt-20 sm:pb-14 relative overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-primary/10 blur-3xl" />
@@ -50,15 +47,6 @@ export function CTASection() {
             ))}
           </div>
 
-          <Button
-            id="floating-cta-end"
-            size="lg"
-            className="group w-full max-w-[300px] sm:max-w-[340px] rounded-full bg-gradient-to-r from-cyan-300 via-sky-300 to-violet-300 text-slate-900 shadow-[0_0_20px_rgba(34,211,238,0.9),0_0_40px_rgba(56,189,248,0.6),0_12px_26px_-12px_rgba(99,102,241,0.7)] ring-1 ring-white/60 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_26px_rgba(34,211,238,1),0_0_60px_rgba(56,189,248,0.8),0_16px_34px_-12px_rgba(99,102,241,0.9)] focus-visible:ring-2 focus-visible:ring-white/80 text-base sm:text-lg font-semibold tracking-[0.08em] uppercase"
-            onClick={() => scrollToId('pricing')}
-          >
-            {t('cta.button')}
-            <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-          </Button>
         </motion.div>
       </div>
     </section>

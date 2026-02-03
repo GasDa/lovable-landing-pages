@@ -5,7 +5,7 @@ import { useLanguage } from "@/hooks/useLanguage";
 import { scrollToId } from "@/lib/scrollToId";
 
 const START_MARKER_ID = "floating-cta-start";
-const END_MARKER_ID = "floating-cta-end";
+const END_MARKER_ID = "floating-cta-dock";
 
 export function FloatingCta() {
   const { t } = useLanguage();

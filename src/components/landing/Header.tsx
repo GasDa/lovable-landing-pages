@@ -47,11 +47,11 @@ export function Header() {
             <a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">
               {t('nav.features')}
             </a>
-            <a href="#pain-points" className="text-muted-foreground hover:text-foreground transition-colors">
-              {t('nav.pricing')}
-            </a>
             <a href="#product" className="text-muted-foreground hover:text-foreground transition-colors">
               {t('nav.product')}
+            </a>
+            <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">
+              {t('nav.pricing')}
             </a>
           </nav>
 
@@ -104,18 +104,18 @@ export function Header() {
                 {t('nav.features')}
               </a>
               <a
-                href="#pain-points"
-                className="text-muted-foreground hover:text-foreground transition-colors py-2"
-                onClick={() => setIsOpen(false)}
-              >
-                {t('nav.pricing')}
-              </a>
-              <a
                 href="#product"
                 className="text-muted-foreground hover:text-foreground transition-colors py-2"
                 onClick={() => setIsOpen(false)}
               >
                 {t('nav.product')}
+              </a>
+              <a
+                href="#pricing"
+                className="text-muted-foreground hover:text-foreground transition-colors py-2"
+                onClick={() => setIsOpen(false)}
+              >
+                {t('nav.pricing')}
               </a>
               <div className="flex flex-col gap-2 pt-2 border-t border-border">
                 <Button variant="ghost" className="justify-start">{t('nav.login')}</Button>
