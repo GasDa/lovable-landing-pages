@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Globe } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -11,6 +11,25 @@ export function Header() {
   const { language, t } = useLanguage();
   const navigate = useNavigate();
   const location = useLocation();
+
+  const getStartedLabel = useMemo(() => {
+    if (typeof navigator === 'undefined') return t('nav.getStarted');
+
+    const ua = navigator.userAgent || '';
+    const platform = navigator.platform || '';
+    const dataPlatform =
+      (navigator as Navigator & { userAgentData?: { platform?: string } }).userAgentData?.platform ||
+      '';
+    const haystack = `${ua} ${platform} ${dataPlatform}`.toLowerCase();
+
+    if (haystack.includes('mac')) {
+      return language === 'ru' ? 'Скачать MacOS приложение' : 'Download MacOS App';
+    }
+    if (haystack.includes('win')) {
+      return language === 'ru' ? 'Скачать Windows приложение' : 'Download Windows App';
+    }
+    return t('nav.getStarted');
+  }, [language, t]);
 
   const toggleLanguage = () => {
     const nextLang = language === 'en' ? 'ru' : 'en';
@@ -65,7 +84,7 @@ export function Header() {
               <span className="uppercase text-sm font-medium">{language}</span>
             </button>
             <Button variant="ghost">{t('nav.login')}</Button>
-            <Button onClick={scrollToPricing}>{t('nav.getStarted')}</Button>
+            <Button onClick={scrollToPricing}>{getStartedLabel}</Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -119,7 +138,7 @@ export function Header() {
               </a>
               <div className="flex flex-col gap-2 pt-2 border-t border-border">
                 <Button variant="ghost" className="justify-start">{t('nav.login')}</Button>
-                <Button className="justify-start" onClick={scrollToPricing}>{t('nav.getStarted')}</Button>
+                <Button className="justify-start" onClick={scrollToPricing}>{getStartedLabel}</Button>
               </div>
             </div>
           </motion.div>
