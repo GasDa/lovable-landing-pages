@@ -8,160 +8,161 @@
     "product": "How it works",
     "pricing": "Pricing",
     "login": "Log In",
-    "getStarted": "Download App"
+    "getStarted": "Download app"
   },
   "hero": {
     "badge": "Trusted by 1,000+ users",
-    "title": "Land your dream job",
+    "title": "Get your dream job",
     "titleHighlight": "in weeks, not months.",
-    "subtitle": "Costs less than half a day of work, but saves months of job hunting.",
-    "audience": "For those tired of failing interviews and missing opportunities.",
-    "cta": "Start for Free",
-    "secondaryCta": "Watch Demo"
+    "subtitle": "The service costs less than half a day of work — and saves months of searching.",
+    "audience": "For those who are job hunting and tired of interview failures.",
+    "cta": "Try it now",
+    "secondaryCta": "Watch demo"
   },
   "painPoints": {
-    "title": "Worried about bombing a hard-to-get interview?",
-    "subtitle": "Poor answers to unexpected questions can cost you the offer.",
+    "title": "Failing interviews that are so hard to get into?",
+    "subtitle": "Bad answers to unexpected questions cost you offers.",
     "items": [
       {
         "title": "Feeling stressed during interviews?",
-        "description": "Thoughts get jumbled, focus slips, and you fear forgetting what you know."
+        "description": "Thoughts get jumbled, it’s hard to focus, and you’re afraid to forget what you knew."
       },
       {
         "title": "Hit with unexpected questions?",
-        "description": "Off-topic, unfamiliar, or tricky questions leave you stuck."
+        "description": "Questions off topic, off stack, off experience — and you freeze."
       },
       {
-        "title": "Job search taking too long?",
-        "description": "Weeks of interviews, polite rejections without explanations, and the sense of being stuck."
+        "title": "Searching for too long?",
+        "description": "Weeks of interviews, polite rejections without explanations, and the feeling you’re stuck."
       },
       {
-        "title": "Don’t want one slip-up to ruin your chance?",
-        "description": "Months of preparation can be wasted because of a single uncertain answer."
+        "title": "Don’t want to miss your chance because of a small mistake?",
+        "description": "Months of preparation can be erased by one uncertain answer."
       }
     ]
   },
   "benefits": {
-    "title": "Why Choose Us",
+    "title": "Why choose us",
     "subtitle": "Earn hundreds of thousands by landing your dream job in weeks, not months.",
     "items": [
       {
-        "title": "Time-Saving",
-        "description": "Weeks instead of months searching for a job.",
+        "title": "Time savings",
+        "description": "Weeks instead of months of job searching.",
         "icon": "clock"
       },
       {
-        "title": "Confident, Well-Structured Answers",
-        "description": "Smart, on-the-spot guidance for all types of questions.",
+        "title": "Structured answers and confidence in interviews",
+        "description": "Clear, real-time prompts for all types of questions.",
         "icon": "zap"
       },
       {
-        "title": "Works for Everyone",
-        "description": "No matter your profession, experience, or position.",
+        "title": "Suitable for everyone",
+        "description": "Regardless of profession, experience, or position.",
         "icon": "users"
       },
       {
-        "title": "Affordable",
-        "description": "Costs less than half a day of work.",
+        "title": "Affordable price",
+        "description": "The service costs about half a day of work.",
         "icon": "credit-card"
       }
     ]
   },
   "product": {
-    "title": "How It Works",
-    "subtitle": "A tool that helps you ace interviews confidently — from the first question to the offer.",
+    "title": "How it works",
+    "subtitle": "A tool that helps you pass interviews confidently — from the first question to the offer.",
     "features": [
       {
-        "title": "For any profession and experience level",
-        "description": "Helps you present as a strong candidate, regardless of role, industry, or seniority.",
+        "title": "Suitable for any profession and level",
+        "description": "Helps you look like a strong candidate regardless of level, role, or industry.",
         "highlights": [
           {
-            "title": "All levels",
-            "description": "From students and juniors to C-level executives"
+            "title": "For any level",
+            "description": "From students and juniors to C-level and top managers"
           },
           {
-            "title": "All industries",
-            "description": "IT, healthcare, sales, management, service, government"
+            "title": "For any industry",
+            "description": "IT, management, sales, service, public sector, and more"
           },
           {
             "title": "Privacy",
-            "description": "Your data is secure and never shared with third parties"
+            "description": "Your data is protected and never shared with third parties"
+          }
+        ]
+      },
+
+      {
+        "title": "Simple and lightweight start",
+        "description": "Download the lightweight, undetectable MacOS app, set permissions, and start your session in minutes.",
+        "highlights": [
+          {
+            "title": "Lightweight app for MacOS/Windows",
+            "description": "Simple download and installation, full invisibility"
+          },
+          {
+            "title": "Permissions setup",
+            "description": "Microphone and screen access in system settings"
+          },
+          {
+            "title": "Session start",
+            "description": "Launch and start the interview session in one click"
           }
         ]
       },
       {
-        "title": "Simple, lightweight setup",
-        "description": "Install the lightweight, undetectable macOS app, grant permissions, and start your session in minutes.",
+        "title": "Support during the interview",
+        "description": "The assistant helps you phrase answers, keep structure, avoid overthinking, and stay focused in real time.",
         "highlights": [
           {
-            "title": "Lightweight macOS app",
-            "description": "Simple download and install with invisible operation"
+            "title": "Fully invisible",
+            "description": "The assistant isn’t visible to other participants, systems, or bots"
           },
           {
-            "title": "Required permissions",
-            "description": "Enable microphone and screen access in system settings"
-          },
-          {
-            "title": "Start session",
-            "description": "Launch and begin your interview session instantly"
-          }
-        ]
-      },
-      {
-        "title": "Real-time interview support",
-        "description": "Assistant helps structure answers, stay focused, and avoid overthinking during the interview.",
-        "highlights": [
-          {
-            "title": "Invisible to others",
-            "description": "The assistant isn’t visible to participants, systems, or bots"
-          },
-          {
-            "title": "Personalized prompts",
+            "title": "Personal prompts",
             "description": "Answers and structure adapt to you and the interview context"
           },
           {
-            "title": "Quick setup",
-            "description": "Get started in 5 minutes with no complicated setup"
+            "title": "Quick start",
+            "description": "Start using it in 5 minutes without complicated setup"
           }
         ]
       },
       {
         "title": "Ready for any interview format",
-        "description": "Works globally, on any platform, without workarounds.",
+        "description": "Works in different countries, on any platforms, and without workarounds.",
         "highlights": [
           {
             "title": "Legal and safe",
-            "description": "No VPNs or circumventions required"
+            "description": "No VPN or bypassing restrictions"
           },
           {
             "title": "Multilingual support",
             "description": "Suitable for interviews in any language"
           },
           {
-            "title": "Compatible",
-            "description": "Works with all platforms and messengers"
+            "title": "Compatibility",
+            "description": "Works with all platforms and messengers: Google Meet, MTS Link, Yandex Telemost, Yandex Interview, KTalk, Zoom, Discord, Teams, Talk, M.Video-Eldorado Talk, SberJazz, Ozon O3, hh.ru, Recruiter AI, Bitrix24, and others"
           }
         ]
       }
     ],
-    "cta": "Try It Now"
+    "cta": "Try it now"
   },
   "cta": {
-    "title": "Ready to land your job faster?",
-    "subtitle": "Costs less than a few hours of work but saves months of searching.",
-    "button": "Start for Free",
+    "title": "Ready to get your job faster?",
+    "subtitle": "The service costs less than a few hours of work and saves months of searching.",
+    "button": "Try it now",
     "stats": [
       {
         "value": "Weeks",
         "label": "instead of months"
       },
       {
-        "value": "Fully legal",
-        "label": "no VPNs or hacks"
+        "value": "All legal",
+        "label": "no VPNs or bypasses"
       },
       {
-        "value": "Strong offers",
-        "label": "confident, structured answers on the spot"
+        "value": "Strong offer",
+        "label": "clear answers in the moment"
       }
     ]
   },
@@ -170,30 +171,30 @@
     "subtitle": "Choose a format — full access to all key features.",
     "features": [
       "Unlimited interview sessions",
-      "Models — Latest OpenAI",
-      "Fully undetectable (desktop app)",
-      "Advanced AI Model (higher‑performance accuracy)",
+      "Models — latest OpenAI",
+      "Fully invisible",
+      "Advanced AI model (higher accuracy)",
       "History saved",
-      "Detailed feedback & insights",
+      "Detailed feedback",
       "7-day money-back guarantee"
     ],
     "plans": [
       {
         "title": "Monthly plan",
-        "price": "₽3,490",
+        "price": "3 490 ₽",
         "period": "/month",
         "description": "Full access for 1 month.",
         "cta": "Subscribe",
-        "oldPrice": "₽5,550",
+        "oldPrice": "5 550 ₽",
         "discount": "-37%"
       },
       {
-        "title": "Six‑month plan",
-        "price": "₽1,990",
+        "title": "Six-month plan",
+        "price": "1 990 ₽",
         "period": "/month",
         "description": "Full access for 6 months.",
         "cta": "Subscribe",
-        "oldPrice": "₽3,990",
+        "oldPrice": "3 990 ₽",
         "discount": "-50%",
         "featured": true,
         "badge": "Best value"
@@ -205,7 +206,7 @@
     "links": [
       "Privacy Policy",
       "Terms of Use",
-      "Contact Us"
+      "Contact"
     ]
   },
   "notFound": {
