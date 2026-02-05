@@ -49,7 +49,7 @@ export function Header() {
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="flex items-center gap-2"
+            className="flex items-start gap-2"
           >
             <div className="w-8 h-8 rounded-lg overflow-hidden bg-primary/20 flex items-center justify-center">
               <img
@@ -58,7 +58,10 @@ export function Header() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <span className="font-bold text-lg">{t('brand.name')}</span>
+            <div className="leading-none">
+              <div className="text-lg font-bold">{t('brand.line1')}</div>
+              <div className="text-xs text-muted-foreground">{t('brand.line2')}</div>
+            </div>
           </motion.div>
 
           {/* Desktop Navigation */}

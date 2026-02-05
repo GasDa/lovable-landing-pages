@@ -1,7 +1,9 @@
 {
   "brand": {
     "short": "AI",
-    "name": "Hinterly AI Assistant"
+    "name": "Hinterly AI Assistant",
+    "line1": "Hinterly",
+    "line2": "AI Assistant"
   },
   "nav": {
     "features": "Benefits",
@@ -14,7 +16,7 @@
     "badge": "Trusted by 1,000+ users",
     "title": "Get your dream job",
     "titleHighlight": "in weeks, not months.",
-    "subtitle": "The service costs less than half a day of work — and saves months of searching.",
+    "subtitle": "The service costs about half a day of work or less — and saves months of searching.",
     "audience": "For those who are job hunting and tired of interview failures.",
     "cta": "Try it now",
     "secondaryCta": "Watch demo"
@@ -43,7 +45,7 @@
   },
   "benefits": {
     "title": "Why choose us",
-    "subtitle": "Earn hundreds of thousands by landing your dream job in weeks, not months.",
+    "subtitle": "Earn hundreds of thousands of rubles by landing your dream job in weeks, not months.",
     "items": [
       {
         "title": "Time savings",
@@ -200,6 +202,12 @@
         "badge": "Best value"
       }
     ]
+  },
+  "cookieConsent": {
+    "text": "We use cookies to enhance your experience, analyze our traffic, and provide personalized content.",
+    "preferences": "Cookie preferences",
+    "reject": "Reject non-essential",
+    "accept": "Accept all cookies"
   },
   "footer": {
     "copyright": "© 2026 Hinterly AI Assistant. All rights reserved.",

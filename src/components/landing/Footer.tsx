@@ -5,11 +5,11 @@ export function Footer() {
   const links = t('footer.links') as string[];
 
   return (
-    <footer className="py-12 border-t border-border">
+    <footer id="cookie-preferences" className="py-12 border-t border-border">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-start gap-2">
             <div className="w-8 h-8 rounded-lg overflow-hidden bg-primary/20 flex items-center justify-center">
               <img
                 src="/brand-mark.svg"
@@ -17,7 +17,10 @@ export function Footer() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <span className="font-bold text-lg">{t('brand.name')}</span>
+            <div className="leading-none">
+              <div className="text-lg font-bold">{t('brand.line1')}</div>
+              <div className="text-xs text-muted-foreground">{t('brand.line2')}</div>
+            </div>
           </div>
 
           {/* Links */}

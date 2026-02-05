@@ -7,6 +7,7 @@ import { CTASection } from '@/components/landing/CTASection';
 import { Footer } from '@/components/landing/Footer';
 import { FloatingCta } from '@/components/landing/FloatingCta';
 import { PricingSection } from '@/components/landing/PricingSection';
+import { CookieBanner } from '@/components/landing/CookieBanner';
 
 const Index = () => {
   return (
@@ -22,6 +23,7 @@ const Index = () => {
         </main>
       <Footer />
       <FloatingCta />
+      <CookieBanner />
     </div>
   );
 };
