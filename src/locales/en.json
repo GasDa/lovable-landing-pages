@@ -179,23 +179,6 @@
     ],
     "plans": [
       {
-        "title": "Starter",
-        "price": "₽699",
-        "period": "",
-        "description": "Limited plan for 90 minutes, no refund guarantee.",
-        "cta": "Start",
-        "oldPrice": "₽999",
-        "discount": "-30%",
-        "features": [
-          "Interview sessions limited to 90 minutes",
-          "Models — Latest OpenAI",
-          "Fully undetectable (desktop app)",
-          "Advanced AI Model (higher‑performance accuracy)",
-          "History saved",
-          "Detailed feedback & insights"
-        ]
-      },
-      {
         "title": "Monthly plan",
         "price": "₽3,490",
         "period": "/month",

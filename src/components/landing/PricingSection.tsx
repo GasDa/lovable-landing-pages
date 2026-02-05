@@ -6,7 +6,7 @@ import { useLanguage } from "@/hooks/useLanguage";
 
 export function PricingSection() {
   const { t } = useLanguage();
-  const [activeIndex, setActiveIndex] = useState(2);
+  const [activeIndex, setActiveIndex] = useState(1);
   const plans = t("pricing.plans") as Array<{
     title: string;
     price: string;
@@ -41,7 +41,7 @@ export function PricingSection() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:max-w-4xl lg:mx-auto lg:justify-items-center gap-6">
           {plans.map((plan, index) => (
             <motion.div
               key={plan.title}
